@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+
+
+
+    <body> 
+        <h1>
+            Header 1 
+        </h1>
+        <h2> 
+            Header 2    
+        </h2>
+        
+        <h3>
+            Header 3
+        </h3>
+            <img src = "picture.jpeg" alt = "picture" width = "104" height="142"> 
+        <p>
+            This is paragraph
+        </p>
+
+
+        <a href = "https://www.instagram.com/matthewd1snap/"> 
+            This is instagram link
+        </a>
+        
+        <p> 
+
+        </p>
+
+
+        <h1 style="display: inline;">
+
+            Header 
+            <button onclick="popa()">
+                Click me 
+            </button>
+            <button onclick = "tits()">
+                Click me 
+            </button>
+        </h1>
+        
+        <img id = "dima" style="display: none;" 
+         src = "C:\Studium\PWS\jopa.jpg" alt = "picture" width = "2000*0.5" height="1000"> 
+        
+        <img id = "tits" style="display: none;" 
+         src = "C:\Studium\PWS\tits.jpg" alt = "picture" width = "2000*0.5" height="142"> 
+       
+       <script>
+            function popa(){
+                const getDIMA = document.getElementById("dima");
+                if (getDIMA.style.display == "block") getDIMA.style.display = "none";
+                else getDIMA.style.display = "block";
+            }
+
+            function tits(){
+                const getTITS = document.getElementById("tits"); 
+                if (getTITS.style.display == "block") getTITS.style.display = "none";
+                else getTITS.style.display = "block";
+            }
+        </script>
+
+        
+    </body>
